@@ -1,0 +1,58 @@
+/*
+Theme Name: Overline Child
+Template: overline
+Author: Elias Hakuni
+Version: 1.0
+Updated: 2022-01-31 11:21:49
+
+*/
+:root {
+  --var-red-black: #310100;
+  --var-dark-red: #66211f;
+  --var-red: #b80600;
+  --var-light: #f0fef5;
+  --var-gray: #d6d6d6;
+  --var-dark-gray: #616161;
+}
+
+.mobile-toggle-holder .mobile-toggle span {
+  background: var(--var-light) !important;
+}
+.thb-secondary-area .thb-secondary-item svg {
+  fill: var(--var-light) !important;
+}
+.menu-item a {
+  color: var(--var-light);
+}
+
+/* Make checkboxes actual checkboxes and not radio buttons */
+.widget.widget_layered_nav ul li > a::before {
+  border-radius: 0;
+}
+/* Price fixation single product */
+.price {
+  display: flex !important;
+  flex-direction: column;
+}
+.price-single-product, .price-product-category {
+  display: inline !important;
+}
+.price-block-secondary {
+    color:var(--var-dark-gray);
+}
+.price-block-secondary bdi {
+    color: var(--var-dark-gray) !important;
+}
+.price-single-product.price-block-secondary bdi {
+    font-size: 16px;
+}
+.price-single-product.price-block-main small {
+    font-size: 100%;
+}
+.price small {
+    padding-left: 0.3em;
+}
+/* Price fixation product in category */
+.price-product-category.price-block-secondary bdi {
+    font-size: 80%;
+}

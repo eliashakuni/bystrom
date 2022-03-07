@@ -1,0 +1,8 @@
+/*
+!/plugins
+!/themes
+/plugins/*
+/themes/*
+!/plugins/esh-bystrom-functions
+!/themes/overline-child
+!/.gitignore
